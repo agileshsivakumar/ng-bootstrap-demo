@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MenuComponent } from './menu/menu.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    DashboardComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
