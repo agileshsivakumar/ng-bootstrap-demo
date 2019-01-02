@@ -11,7 +11,7 @@ export class MenuComponent {
   constructor(private router: Router) {}
   @Input() menus: Menu[];
 
-  routeToDashboard() {
-    this.router.navigate(['/dashboard']);
+  routeToUrl(url: string) {
+    this.router.navigate([url]);
   }
 }
