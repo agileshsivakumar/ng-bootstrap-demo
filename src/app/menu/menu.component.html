@@ -1,5 +1,5 @@
 <div class="row">
-  <a *ngFor="let menu of menus" (click)="routeToUrl(menu.url)" class="btn btn-primary btn-menu ">
+  <a *ngFor="let menu of menus" (click)="menuClicked(menu.url, menu.menus)" class="btn btn-primary btn-menu ">
     {{ menu.name }}
   </a>
 </div>
